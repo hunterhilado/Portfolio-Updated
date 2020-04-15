@@ -1,0 +1,1 @@
+$('.home-content').backstretch("assets/images/port1.jpg");
