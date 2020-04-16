@@ -28,6 +28,7 @@ h1, h2 {
 /** ... Top Menu ... **/
 
 .navbar {
+    min-height: 80px;
     background: cornsilk;
     -o-transition: all .6s;
     -moz-transition: all .6s;
@@ -37,7 +38,22 @@ h1, h2 {
     backface-visibility: hidden;
     padding-bottom: 100px 100px !important;
 }
+
+.navbar-nav {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 170px;
+    line-height: 80px;
+}
  
+.navbar-togler {
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
 .navbar.navbar-no-bg {
     
     background: rgba(0, 0, 0, 0.2);
@@ -191,6 +207,7 @@ h1, h2 {
 /***** Portfolio *****/
  
 .portfolio-container {
+  
     background-color:rgb(226, 226, 226) ;
 }
 .portfolio-box {
